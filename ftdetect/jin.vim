@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.jin setfiletype jinitialize
+autocmd BufNewFile,BufRead *.jin setfiletype jin
