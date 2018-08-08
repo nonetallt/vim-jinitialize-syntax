@@ -1,5 +1,3 @@
-"syntax/jin.vim
-
 "Keywords
 syntax keyword jinitializeKeyword
             \ name
