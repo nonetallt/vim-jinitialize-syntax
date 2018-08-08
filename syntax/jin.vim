@@ -1,6 +1,6 @@
 "Keywords
 syntax keyword jinitializeKeyword
-            \ name
+            \ help
             \ description
             \ with
 
@@ -12,7 +12,7 @@ syntax region jinitializeString start=/"/ end=/"/
 syntax region jinitializeString start=/'/ end=/'/
 
 "Placeholders
-syntax region jinitializePlaceholder start="[" end="]"
+syntax region jinitializePlaceholder start="\[" end="\]"
 
 "Plugin names
 syntax match JinitializePlugin "^[^\s]+$"
