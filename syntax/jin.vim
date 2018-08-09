@@ -8,8 +8,8 @@ syntax keyword jinitializeKeyword
 syntax match jinitializeComment "#.*$"
 
 "Strings
-syntax region jinitializeString start=/"/ end=/"/
-syntax region jinitializeString start=/'/ end=/'/
+syntax region jinitializeString start=/"/ end=/"/ contains=jinitializePlaceholder
+syntax region jinitializeString start=/'/ end=/'/ contains=jinitializePlaceholder
 
 "Placeholders
 syntax region jinitializePlaceholder start="\[" end="\]"
