@@ -15,10 +15,10 @@ syntax region jinitializeString start=/'/ end=/'/ contains=jinitializePlaceholde
 syntax region jinitializePlaceholder start="\[" end="\]"
 
 "Plugin names
-syntax match JinitializePlugin "^\S+$"
+syntax match JinitializePlugin "\v^\S+$"
 
 "Command names
-syntax match JinitializeCommand "^\s+\S+$"
+syntax match JinitializeCommand "\v^\s+\S+$"
 
 "Set highlights
 highlight default link jinitializeComment Comment
