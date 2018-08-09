@@ -18,7 +18,7 @@ syntax region jinitializePlaceholder start="\[" end="\]"
 syntax match JinitializePlugin "\v^\S+$"
 
 "Command names
-syntax match JinitializeCommand "\v^\s+\S+$"
+syntax match JinitializeCommand "\v^\s+\S+"
 
 "Set highlights
 highlight default link jinitializeComment Comment
